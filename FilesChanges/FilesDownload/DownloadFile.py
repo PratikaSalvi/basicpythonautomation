@@ -17,3 +17,7 @@ driver.find_element_by_id("textbox").send_keys("Hello")
 driver.find_element_by_id("createTxt").click()
 #Click on Download Button
 driver.find_element_by_link_text("Download").click()
+#Save the screenshot
+driver.save_screenshot("D:\Downloads\Image1.png")
+#close the browser
+driver.close()
