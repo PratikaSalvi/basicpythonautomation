@@ -12,6 +12,7 @@ driver.get("http://testautomationpractice.blogspot.com/")
 
 #2nd approch by finding the element
 driver.implicitly_wait(30)
+
 flag = driver.find_element_by_id("FSsubmit")
 driver.execute_script("arguments[0].scrollIntoView():",flag)
 
