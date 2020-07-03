@@ -1,11 +1,12 @@
 from selenium import webdriver
 import openpyxl
 
-
+#Path where excel sheet is stored
 path = "D:\Roles.xlsx"
 
 workbook = openpyxl.load_workbook(path)
 sheet = workbook.active
+
 
 rows = sheet.max_row
 cols = sheet.max_column
