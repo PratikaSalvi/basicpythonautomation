@@ -3,7 +3,7 @@ This is learning for selenium with python  Code
   
   
   Python Version: Python 3.8.3
-  Selenium Version :
+  Install selenium :pip install selenium 
   IDE :Pycharm
 
 Framework used :
@@ -14,9 +14,10 @@ Framework used :
                  Given :[A precondition]
                  When : Event 
                  Then :Result
+                 Install behave command>>>>pip install behave
 
 
 
 2)Data Driven Testing:
-Download openpyxl  using command>>> pip install openpyxl  from CLI 
+                      Download openpyxl  using command>>> pip install openpyxl  from CLI 
 
